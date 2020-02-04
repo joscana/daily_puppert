@@ -42,10 +42,11 @@
     float: right;
     grid-area: side;
     flex-direction: column;
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
     border: 2px solid whitesmoke;
     border-radius: 25px;
+    padding: 10px;
 }
 
 
@@ -80,4 +81,8 @@ h2 h3 h4{
 
 p{
     font-family: 'Open Sans', sans-serif;
+}
+
+.authorBio{
+    font-size: 15px;
 }
