@@ -9,7 +9,7 @@ body {
     display: grid;
     border: 2px solid black;
     grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 250px 600px;
+    grid-template-rows: auto;
     grid-template-areas:
     "nav nav nav nav"
     "header header header header"
@@ -18,21 +18,21 @@ body {
     "footer footer footer footer";
 }
 
-ul {
+.navigationBar {
     grid-area: nav;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border: 2px solid whitesmoke;
     background-color: #966fd6;
+    border-radius: 25px;
+    height: 50px;
 }
 
-li {
-    float: left;
-}
-
-li a {
+.navigationLinks {
     display: block;
+    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -40,9 +40,15 @@ li a {
 }
 
 #header {
+    display: flex;
+    float: left;
     grid-area: header;
     border: 2px solid whitesmoke;
     border-radius: 25px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    margin: 0px;
 }
 
 #sidebar {
