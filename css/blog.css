@@ -31,7 +31,10 @@
 }
 
 .footer{
-
+    grid-area: footer;
+    display: flex;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
 }
 
 .side{
@@ -43,6 +46,30 @@
     width: 600px;
     border: 2px solid whitesmoke;
     border-radius: 25px;
+}
+
+
+
+.footerLinksList {
+    grid-area: nav;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid whitesmoke;
+    background-color: #F5E1FD;
+    border-radius: 25px;
+    height: 50px;
+}
+
+
+.footerLink {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
