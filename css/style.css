@@ -71,6 +71,13 @@ body {
     background-color: #CE9DD9;
 }
 
+#footer {
+    grid-area: footer;
+    display: flex;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+}
+
 .postCard{
     border: 2px solid black;
     border-radius: 25px;
