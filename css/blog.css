@@ -15,34 +15,11 @@
     "footer footer footer footer";
 }
 
-
-.navigationBar{
-    grid-area: nav;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 2px solid whitesmoke;
-    background-color: #F5E1FD;
-    border-radius: 25px;
-    height: 50px;
-}
-
-.navigationLinks {
-    display: block;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-
 .header{
     grid-area: header;
     text-align: center;
 }
+
 
 .side{
     display: flex;
@@ -56,25 +33,9 @@
     padding: 10px;
 }
 
+
 .main{
     grid-area: main;
-}
-
-.footer{
-    grid-area: footer;
-    display: flex;
-    border: 2px solid whitesmoke;
-    border-radius: 25px;
-}
-
-
-.footerLink {
-    display: block;
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 
