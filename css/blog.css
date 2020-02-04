@@ -14,13 +14,13 @@
     "footer footer footer footer";
 }
 
-.header{
+.header {
     grid-area: header;
     text-align: center;
 }
 
 
-.side{
+.side {
     display: flex;
     float: right;
     grid-area: side;
@@ -34,7 +34,7 @@
 }
 
 
-.main{
+.main {
     grid-area: main;
 }
 
@@ -67,12 +67,13 @@ h5 {
     line-height: 10px;
 }
 
-p{
+
+p {
     font-family: 'Open Sans', sans-serif;
 }
 
 
-ol{
+ol {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -80,6 +81,7 @@ ol{
 ul {
     font-family: 'Open Sans', sans-serif;
 }
+
 
 @media (max-width:600px) {
     .grid {
