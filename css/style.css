@@ -98,6 +98,7 @@ h1 {
     display: flex;
     border: 2px solid whitesmoke;
     border-radius: 25px;
+    background-color: #F5E1FD;
 }
 
 
@@ -110,4 +111,14 @@ h1 {
     text-decoration: none;
 }
 
+
+.subscribeButton{
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
 
