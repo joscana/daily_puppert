@@ -1,2 +1,44 @@
 @charset "UTF-8";
 @import url(style.css);
+
+
+.grid {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav nav nav"
+    "header header header header"
+    "main main main side"
+    "main main main side"
+    "footer footer footer footer";
+}
+
+
+.nav{
+
+}
+
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+
+}
+
+
+h2 h3 h4{
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}

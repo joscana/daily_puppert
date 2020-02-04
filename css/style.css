@@ -85,10 +85,11 @@ body {
 }
 
 .postCard{
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     border-radius: 25px;
     height: 500px;
     width: 500px;
+    padding: 5px;
 }
 
 h1 {
