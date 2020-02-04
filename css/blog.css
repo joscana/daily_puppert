@@ -34,10 +34,22 @@
 
 }
 
+.side{
+    display: flex;
+    float: right;
+    grid-area: side;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+}
+
 
 h2 h3 h4{
     font-size: 30px;
 }
+
 
 p{
     font-family: 'Open Sans', sans-serif;
