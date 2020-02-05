@@ -80,18 +80,36 @@ h1 {
 
 h2 {
     line-height: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+h3 {
+    line-height: 6px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-weight: lighter;
 }
 
 
 q {
     font-family: 'Sofia';
     font-size: 20px;
+    color: #554074;
+}
+
+a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Sofia';
 }
 
 
