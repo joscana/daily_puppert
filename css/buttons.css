@@ -1,7 +1,8 @@
 .subscribeButton {
     border: 1px solid whitesmoke;
     border-radius: 25px;
-    background-color: inherit;
+    background-color: #836ba3;
+    color: whitesmoke;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
@@ -12,9 +13,10 @@
 #readMore {
     border: 1px solide whitesmoke;
     border-radius: 25px;
-    background-color: inherit;
-    font-size: 16px;
-    font-weight: bold;
+    background-color: #836ba3;
+    color: whitesmoke;
+    padding: 6px;
+    font-size: 12px;
     cursor: pointer;
     display: inline-stack;
 }
